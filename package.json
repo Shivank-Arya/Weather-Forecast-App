@@ -1,0 +1,25 @@
+{
+  "name": "weather-forecast-app",
+  "version": "1.0.0",
+  "description": "Weather Forecast APP Readme File",
+  "homepage": "https://github.com/Shivank-Arya/Weather-Forecast-App#readme",
+  "bugs": {
+    "url": "https://github.com/Shivank-Arya/Weather-Forecast-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivank-Arya/Weather-Forecast-App.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./css/input.css -o ./css/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
